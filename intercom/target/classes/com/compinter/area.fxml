@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.compinter.controller.AreaController">
+   <top>
+      <VBox alignment="CENTER" prefHeight="400.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextArea fx:id="log" editable="false" prefHeight="341.0" prefWidth="580.0">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="15.0" right="15.0" />
+               </VBox.margin>
+            </TextArea>
+            <Button fx:id="continueButton" disable="true" mnemonicParsing="false" onAction="#continueAction" text="Continuar">
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin></Button>
+         </children>
+      </VBox>
+   </top>
+</BorderPane>
